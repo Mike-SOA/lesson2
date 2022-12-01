@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Регистрация</h1>
+
+    <div>
+      <a href="../index.html">Главная</a>
+      <a href="articles.html">Статьи</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="page_nav.html">Навигация</a>
+    </div>
+
+    <form
+      action="https://tests.fomenko.top/echo/index.php"
+      method="get"
+      target="_blank">
+      <fieldset>
+        <legend>Поля ввода</legend>
+        <div>
+          <label for="login">Имя</label>
+          <input
+            id="login"
+            type="text"
+            placeholder="введите имя"
+            name="login"
+            />
+        </div>
+
+        <div>
+          <label for="last_name">Фамилия</label>
+          <input
+            id="last_name"
+            type="text"
+            placeholder="введите фамилию"
+            name="last_name"
+            />
+        </div>
+
+        <div>
+          <label for="patronymic">Отчество</label>
+          <input
+            id="patronymic"
+            type="text"
+            placeholder="введите отчество"
+            name="patronymic"
+            />
+        </div>
+
+        <div>
+          <label for="photo">Добавьте фото</label>
+          <input id="photo" type="file" name="photo" />
+        </div>
+
+        <div>
+          <label for="mail">Адрес електронной почты</label>
+          <input
+            type="email"
+            name="mail"
+            placeholder="Введите email"
+            id="mail"
+            />
+        </div>
+
+        <div>
+          <label for="pass">Пароль</label>
+          <input
+            id="pass"
+            type="password"
+            placeholder="Введите пароль"
+            name="password"
+            />
+        </div>
+
+        <div>
+          <label for="web">Адрес сайта</label>
+          <input
+            id="web"
+            type="url"
+            placeholder="your website"
+            name="web"
+            value="https://mysite.name"
+            />
+        </div>
+
+        <div>
+          <label for="radio1">Выбрать пол</label>
+          <div>
+            <label for="radio1">Муж</label>
+            <input id="radio1" type="radio" name="radioname" value="radio1" />
+          </div>
+
+          <div>
+            <label for="radio2">Жен</label>
+            <input id="radio2" type="radio" name="radioname" value="radio2" />
+          </div>
+
+          <div>
+            <label for="radio3">Не хочу отвечать</label>
+            <input id="radio3" type="radio" name="radioname" value="radio3" />
+          </div>
+        </div>
+
+        <div>
+          <label for="birth">Выбрать дату рождения</label>
+          <input
+            id="birth"
+            value="1992"
+            type="number"
+            placeholder="Дата рождения"
+            />
+        </div>
+
+        <h5>Выбрать предпочитаемую кухню</h5>
+        <div>
+          <label for="checkbox1">Украинская</label>
+          <input
+            type="checkbox"
+            name="checkboxname1"
+            id="checkbox1"
+            value="checked1"
+            />
+        </div>
+        <div>
+          <label for="checkbox2">Итальянская</label>
+          <input
+            type="checkbox"
+            name="checkboxname2"
+            id="checkbox2"
+            value="checked2"
+            />
+        </div>
+        <label for="checkbox3">Японская</label>
+        <input
+          type="checkbox"
+          name="checkboxname3"
+          id="checkbox3"
+          value="checked3" />
+
+        <div>
+          <label for="multi">Напишите о себе</label>
+          <textarea
+            name="txt"
+            id="multi"
+            placeholder="Добавьте текст"></textarea>
+        </div>
+      </fieldset>
+      <div>
+        <button type="submit">зарегестрироваться</button>
+        <button type="reset">очистить форму</button>
+      </div>
+    </form>
+
+    <footer>&#169; Кушнір Михайло</footer>
+  </body>
+</html>
